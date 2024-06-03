@@ -10,7 +10,7 @@ cd TDPR
 pip install .
 ```
 
-We follow the work of [DPR]([facebookresearch/DPR: Dense Passage Retriever - is a set of tools and models for open domain Q&A task. (github.com)](https://github.com/facebookresearch/DPR)), using Python 3.6+ and PyTorch 1.2.0+.
+We follow the work of [DPR](https://github.com/facebookresearch/DPR), using Python 3.6+ and PyTorch 1.2.0+.
 
 ## Prepare data
 
@@ -98,7 +98,7 @@ python concat_save_main.py \
 
 ## Training
 
-The training section is conducted with reference to the training section of [DPR]([facebookresearch/DPR: Dense Passage Retriever - is a set of tools and models for open domain Q&A task. (github.com)](https://github.com/facebookresearch/DPR)).
+The training section is conducted with reference to the training section of [DPR](https://github.com/facebookresearch/DPR).
 
 
 
