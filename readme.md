@@ -99,3 +99,11 @@ python concat_save_main.py \
 ## Training
 
 The training section is conducted with reference to the training section of [DPR]([facebookresearch/DPR: Dense Passage Retriever - is a set of tools and models for open domain Q&A task. (github.com)](https://github.com/facebookresearch/DPR)).
+
+
+
+## Checkpoints
+
+We have released our trained checkpoints at the following link.
+
+[Four datasets TDPR checkpoints](https://pan.baidu.com/s/1-PxjOrxjsqkiZhiPQmQrSw?pwd=l2ux)
