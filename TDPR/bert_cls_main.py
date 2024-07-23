@@ -1,7 +1,6 @@
 import argparse
 from bert_cls import BertCLS
 
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--question_path', type=str)

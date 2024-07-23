@@ -1,7 +1,6 @@
 import argparse
 from filter_save_hidden import Filter
 
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--dpr_file_path', type=str)

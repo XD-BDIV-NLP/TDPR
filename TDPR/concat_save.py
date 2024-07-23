@@ -3,7 +3,6 @@ import pandas as pd
 import csv
 import json
 
-
 class ConcatAndSave:
     def __init__(self, hidden_path, d_file_path, origin_file_path, write_path, concat, is_test) -> None:
         self.hidden_path = hidden_path

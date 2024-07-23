@@ -2,13 +2,6 @@ import json
 import csv
 
 
-# origin_train_data_path
-# origin_dev_data_path
-# train_tsv_save_path
-# dev_tsv_save_path
-# origin_test_data_path
-# test_tsv_save_path
-
 class DataProcess:
     def __init__(self) -> None:
         self.origin_data = None

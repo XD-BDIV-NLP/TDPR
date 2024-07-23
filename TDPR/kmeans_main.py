@@ -1,6 +1,7 @@
 import argparse
 from kmeans import KMeans
 
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--train_cls_path', type=str)

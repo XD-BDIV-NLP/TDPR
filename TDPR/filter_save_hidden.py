@@ -14,6 +14,7 @@ import json
 
 
 class Filter:
+    
     def __init__(self, dpr_file_path, origin_file_path,
                 d_plus_path, output_path, is_test) -> None:
         self.model_name = '/data/models/bert-base-uncased'

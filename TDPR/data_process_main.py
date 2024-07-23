@@ -1,7 +1,6 @@
 import argparse
 from data_process import DataProcess
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--origin_train_data_path", type=str)
