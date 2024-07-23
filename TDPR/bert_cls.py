@@ -3,7 +3,6 @@ import torch
 import numpy as np
 import csv
 
-
 class BertCLS:
     def __init__(self, question_path, save_path) -> None:
         self.model_name = '/data/models/bert-base-uncased'
