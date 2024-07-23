@@ -1,4 +1,4 @@
-# Topic-aware Demonstrations for Open-domain Question Expansion
+# Query Expansion with Topic-aware In-context Learning and Vocabulary Projection for Open-domain Dense Retrieval
 
 ## Installation
 
