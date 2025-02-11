@@ -12,6 +12,8 @@ pip install .
 
 We follow the work of [DPR](https://github.com/facebookresearch/DPR), using Python 3.6+ and PyTorch 1.2.0+.
 
+
+
 ## Prepare data
 
 First, extract the questions from the dataset into a TSV file, making it easy to feed into DPR to obtain the DPR vector representation of the questions.
