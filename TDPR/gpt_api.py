@@ -5,7 +5,6 @@ import random
 import csv
 import argparse
 
-
 class GptAPI:
     def __init__(self,
                  origin_train_file,

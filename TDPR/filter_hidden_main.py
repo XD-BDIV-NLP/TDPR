@@ -8,7 +8,6 @@ if __name__ == '__main__':
     parser.add_argument('--d_plus_path', type=str)
     parser.add_argument('--output_path', type=str)
     parser.add_argument('--is_test', type=str)
-
     args = parser.parse_args()
 
     filter_utils = Filter(args.dpr_file_path, args.origin_file_path,

@@ -1,7 +1,6 @@
 import argparse
 from gpt_api import GptAPI
 
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--origin_train_file', type=str)

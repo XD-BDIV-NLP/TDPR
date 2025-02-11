@@ -9,7 +9,6 @@ if __name__ == "__main__":
     parser.add_argument("train_tsv_save_path", type=str)
     parser.add_argument("dev_tsv_save_path", type=str)
     parser.add_argument("test_tsv_save_path", type=str)
-
     args = parser.parse_args()
 
     data_process_utils = DataProcess()

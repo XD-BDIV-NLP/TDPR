@@ -7,7 +7,6 @@ from collections import defaultdict
 from sklearn.decomposition import PCA
 from kmeans_pytorch import kmeans, kmeans_predict
 
-
 class KMeans:
     def __init__(self, train_cls_path, test_cls_path, dev_cls_path,
                  num_clusters, output_path, test_save_path, dev_save_path) -> None:

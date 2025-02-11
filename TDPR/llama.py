@@ -6,7 +6,6 @@ import argparse
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-
 device_map = "cuda:0" if torch.cuda.is_available() else "auto"
 model = AutoModelForCausalLM.from_pretrained('/dev/shm/LLama-13b-chat-hf',device_map=device_map,torch_dtype=torch.float16,trust_remote_code=True,use_flash_attention_2=False)
 model =model.eval()

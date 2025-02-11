@@ -18,7 +18,6 @@ class Filter:
         self.model_name = '/data/models/bert-base-uncased'
         self.tokenizer = BertTokenizer.from_pretrained(self.model_name)
         self.mlm_model = BertForMaskedLM.from_pretrained(self.model_name)
-
         self.stop_words = set(stopwords.words('english'))
         self.punctuation_set = set(string.punctuation)
         self.predicted_words = []

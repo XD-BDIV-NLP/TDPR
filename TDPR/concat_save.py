@@ -17,7 +17,6 @@ class ConcatAndSave:
         # 加载筛选后的hidden_tokens list
         with open(self.hidden_path, 'rb') as f:
             hidden_tokens = pickle.load(f)
-
         # load d‘ 伪文章
         d_file = pd.read_csv(self.d_file_path, sep='\t', quoting=csv.QUOTE_NONE, index_col=None)
 

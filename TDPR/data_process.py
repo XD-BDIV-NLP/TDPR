@@ -1,7 +1,6 @@
 import json
 import csv
 
-
 class DataProcess:
     def __init__(self) -> None:
         self.origin_data = None
